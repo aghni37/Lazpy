@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Data Processing Interface By aghniqolbi</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Data Processing Interface</h1>
+        <textarea id="jsonInput" class="form-control mb-3" placeholder="Masukkan data JSON"></textarea>
+
+        <div class="btn-container">
+            <button class="btn btn-primary" onclick="proses()">Proses</button>
+            <button class="btn btn-success" onclick="simpan()">Simpan ke CSV</button>
+            <!-- <button class="btn btn-warning" onclick="hapusDuplikat()">Hapus Duplikat</button> -->
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+        </div>
+
+        <div id="output"></div>
+        <div id="error"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
